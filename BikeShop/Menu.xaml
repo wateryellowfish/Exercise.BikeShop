@@ -23,7 +23,7 @@
         </Grid.RowDefinitions>
 
         <Button x:Name="Products_button" Grid.Row="1" Grid.Column="0" Margin="20" Content="Products" FontSize="14"/>
-        <Button x:Name="LiveSupport_button" Grid.Row="1" Grid.Column="1" Margin="20" Content="Live Support" FontSize="14"/>
+        <Button x:Name="LiveSupport_button" Grid.Row="1" Grid.Column="1" Margin="20" Content="Live Support" FontSize="14" Click="LiveSupport_button_Click"/>
         <Button x:Name="EmailSupport_button" Grid.Row="1" Grid.Column="2" Margin="20" Content="Email Support" FontSize="14" Click="EmailSupport_button_Click"/>
         <TextBlock Grid.Row="2" Grid.ColumnSpan="3" Text="Adventure Works" HorizontalAlignment="Center" Margin="25" FontSize="28" FontStyle="Italic" FontWeight="Bold"/>
     </Grid>
